@@ -47,3 +47,66 @@ do{
 }
 
 dowhile(20);
+
+// Task-6
+
+function fact(num){
+    let f = 1;
+    let j = 1;
+    do{
+        f = f * j ;
+        j++;
+    }while(j<=num)
+        console.log(f);
+}
+fact(5);
+
+// Task - 8 
+function printStar(num){
+   
+    for(let i = 1 ; i<=num ; i++){
+         let row = ""
+        for(let j = 1 ; j<=i ; j++){
+           row = row + "*";
+        }
+        console.log(row)
+    }
+   
+}
+
+printStar(5);
+
+// Task - 9
+
+function Continue(num){
+    let i = 1;
+    do{
+        
+        
+        if (i===5) {
+            i++;
+            continue;
+        }
+        console.log(i);
+        i++;
+    }while(i<=num);
+
+}
+Continue(10);
+
+
+function Break(num){
+    let i = 1 ;
+    do{
+        
+        console.log(i);
+        i++;   
+        if (i==7){
+            break;
+        }  
+        
+    }while(i<=num);
+
+}
+Break(10);
+
