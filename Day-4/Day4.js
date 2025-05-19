@@ -62,6 +62,12 @@ function fact(num){
 fact(5);
 
 // Task - 8 
+
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
 function printStar(num){
    
     for(let i = 1 ; i<=num ; i++){

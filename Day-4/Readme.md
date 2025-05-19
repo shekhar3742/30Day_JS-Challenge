@@ -20,11 +20,11 @@ Write a program to calculate the factorial of a number using a do...while loop.
 - Task 7
 Write a program to print a pattern using nested for loops:
 
-- *
-- * *
-- * * *
-- * * * *
-- * * * * *
+*
+* *
+* * *
+* * * *
+* * * * *
 
 ## Activity 5: Loop Control Statements
 - Task 8
